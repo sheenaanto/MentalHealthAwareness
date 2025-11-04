@@ -65,22 +65,31 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+            <li class="nav-item mt-2">
               <a class="nav-link active" aria-current="page" href="index.html"
                 >Home</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item mt-2">
               <a class="nav-link" href="#wellness">Wellness bites</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mt-2">
               <a href="#resources" class="nav-link">Resources</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mt-2">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Urgent support</a>
+              <a class="nav-link" href="#urgent_support">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Urgent Support
+                </button></a
+              >
             </li>
           </ul>
         </div>
@@ -451,6 +460,51 @@
         </button>
       </div>
     </section>
+
+    <!-- Urgent support section -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Urgent help
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            For an immediate emergency, call 999 or go to A&E. If it's not an
+            emergency but you need urgent help, contact NHS 111 online or call
+            111 and select the mental health option. Other resources for urgent
+            support include the Samaritans (116 123) and the Shout text service
+            (text SHOUT to 85258).
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer / contact section -->
     <!-- mt-auto added to push footer to the bottom of the page -->
     <footer id="contact" class="bg-light">
