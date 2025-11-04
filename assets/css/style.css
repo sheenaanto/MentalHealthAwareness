@@ -24,7 +24,7 @@ body {
 
 
 #navbar{
-    background-color:white;
+    background-color:#f2cb4d;
 }
 
 /* Navbar logo */
@@ -34,7 +34,7 @@ body {
 }
 .section {
     /* prevent navbar overlap */
-   padding-top: 4rem; 
+   padding-top: 6rem; 
 }
 
 
@@ -52,10 +52,15 @@ body {
 }
 .hero_heading {
   position: absolute;
-  top: 6%;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 15%;
+  left: 8%;
   font-size: 60%;
+
+}
+.hero_subheading{
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
 }
 
 
@@ -83,4 +88,11 @@ body {
 #new-games .card,
 #fav-games .card {
     border: none;
+}
+#resources {
+    background-color: rgb(245, 247, 247);
+}
+#positive_affirmations {
+    background-color: #2fa9b2;
+    border-radius: 5px;
 }
