@@ -8,10 +8,7 @@
 :root {
     --primary-font: "Comic Relief", sans-serif;
     --secondary-font: "Inter", sans-serif;
-    --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #aa9581; /* light brown */
-    --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #7a9fc2; /* light blue */
+ 
 }
 
 /* Global styles */
@@ -96,3 +93,12 @@ body {
     background-color: #4fcfd8;
     border-radius: 5px;
 }
+
+#contact {
+  background-color: #f2cb4d !important; /* Bootstrap's light gray */
+}
+
+#contact .social-links i {
+    color:black;
+    font-size: 1.9rem;
+   
