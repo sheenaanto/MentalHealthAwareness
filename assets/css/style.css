@@ -18,7 +18,7 @@
 
 body {
     font-family: var(--primary-font);
-    background-color:#ffeb90;
+    /* background-color:#ffeb90; */
     padding-top: 57.15px; /*Pushes the top due to the top fixed feature*/
 }
 
@@ -61,4 +61,26 @@ body {
 
 .btn{
     opacity: .8;
+}
+
+/* wellness */
+
+#wellness .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#wellness .card {
+    margin-bottom: 1.5rem;
+}
+#wellness .card img{
+    height: 250px;
+    object-fit: cover;
+}
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
 }
