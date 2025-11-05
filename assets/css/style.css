@@ -95,6 +95,11 @@ body {
     border-radius: 5px;
 }
 
+.btn-outline-primary {
+  color: #02275fcc !important;
+  border-color: #02275fcc !important;
+
+}
 
 
 .btn-outline-primary:hover {
@@ -103,10 +108,20 @@ body {
   color: #fff !important;
 }
 
+.btn-outline-success {
+  color: #07311ECC !important;
+  border-color: #07311ECC !important;
+}
+
 .btn-outline-success:hover {
   background-color: #07311ECC !important;
   border-color: #07311ECC !important;
   color: #fff !important;
+}
+
+.btn-outline-warning {
+  color: #2E2000CC !important;
+  border-color: #2E2000CC !important;
 }
 
 .btn-outline-warning:hover {
@@ -120,10 +135,20 @@ body {
   border-color: #323DCC !important;
   color: #fff !important;
 }
+
+.btn-outline-info {
+  color: #323DCC !important;
+  border-color: #323DCC !important;
+}
+
 .btn-outline-secondary:hover {
   background-color: #282A2ECC !important;
   border-color: #282A2ECC !important;
   color: #fff !important;
+}
+.btn-outline-secondary {
+  color: #282A2ECC !important;
+  border-color: #282A2ECC !important;
 }
 
 .btn-outline-danger:hover {
@@ -131,6 +156,11 @@ body {
   border-color: #5D0E18CC !important;
   color: #fff !important;
 }
+.btn-outline-danger {
+  color: #5D0E18CC !important;
+  border-color: #5D0E18CC !important;
+}
+
 
 
 
@@ -142,4 +172,8 @@ body {
 #contact .social-links i {
     color:black;
     font-size: 1.9rem;
+}
+
+.blockquote-footer{
+    color:#4c5557
 }
