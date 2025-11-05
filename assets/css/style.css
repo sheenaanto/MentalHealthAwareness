@@ -24,9 +24,21 @@ body {
     background-color:#f2cb4d;
 }
 
+/* Navbar link hover and active states */
+.navbar-nav .nav-link:hover {
+    color: #121212;
+    font-weight: 500px;
+}
+
+/* Highlight currently active page/section */
+.navbar-nav .nav-link.active {
+       font-weight: 500px;
+
+}
+
 /* Navbar logo */
 .navbar-brand .logo {
-    height: 60px;
+    height: 50px;
     width: auto;
 }
 .section {
@@ -39,33 +51,28 @@ body {
 
 .hero {
   height: 500px;
-  background: url(../images/hero1.jpg) no-repeat center center/cover;
+   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+              url(../images/hero1.jpg) no-repeat center center/cover;
+  background-blend-mode: darken;
   position: relative;
-  color:aliceblue;
+  color: white;
   display: flex;
   align-items:flex-end;
   justify-content: center; 
 
 }
-.hero_heading {
-  position: absolute;
-  top: 15%;
-  left: 8%;
-  font-size: 60%;
 
+.hero_text {
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
 }
-.hero_subheading{
-    position: absolute;
-    bottom: 25%;
-    right: 5%;
-}
-
 
 .btn{
     opacity: .8;
 }
 
-/* wellness */
+/* Wellness */
 
 #wellness .card-footer {
     font-weight: bold;
@@ -80,20 +87,19 @@ body {
     height: 250px;
     object-fit: cover;
 }
-/* Game library cards */
 
-#new-games .card,
-#fav-games .card {
-    border: none;
-}
+/* Resources */
 #resources {
     background-color: rgb(245, 247, 247);
 }
+
+/* Possitive affirmations */
 #positive_affirmations {
-    background-color: #4fcfd8;
+    background-color:#7496c4;
     border-radius: 5px;
 }
 
+/* Contact */
 #contact {
   background-color: #f2cb4d !important; /* Bootstrap's light gray */
 }
