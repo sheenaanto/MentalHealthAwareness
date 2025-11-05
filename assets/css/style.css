@@ -47,13 +47,13 @@ body {
 
 .hero {
   height: 500px;
-   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
               url(../images/hero1.jpg) no-repeat center center/cover;
   background-blend-mode: darken;
   position: relative;
   color: white;
   display: flex;
-  align-items:flex-end;
+  align-items: center;  
   justify-content: center; 
 
 }
@@ -94,6 +94,45 @@ body {
     background-color:#7496c4;
     border-radius: 5px;
 }
+
+
+
+.btn-outline-primary:hover {
+  background-color: #02275fcc !important;
+  border-color: #02275fcc !important;
+  color: #fff !important;
+}
+
+.btn-outline-success:hover {
+  background-color: #07311ECC !important;
+  border-color: #07311ECC !important;
+  color: #fff !important;
+}
+
+.btn-outline-warning:hover {
+  background-color: #2E2000CC !important;
+  border-color: #2E2000CC !important;
+  color: #fff !important;
+}
+
+.btn-outline-info:hover {
+  background-color: #323DCC !important;
+  border-color: #323DCC !important;
+  color: #fff !important;
+}
+.btn-outline-secondary:hover {
+  background-color: #282A2ECC !important;
+  border-color: #282A2ECC !important;
+  color: #fff !important;
+}
+
+.btn-outline-danger:hover {
+  background-color: #5D0E18CC !important;
+  border-color: #5D0E18CC !important;
+  color: #fff !important;
+}
+
+
 
 /* Contact */
 #contact {
