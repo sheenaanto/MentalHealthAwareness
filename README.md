@@ -1,4 +1,6 @@
 # Mindful Moments
+
+## Introduction
 This project aims to create a beginner-friendly and supportive mental health awareness website. The primary goal is to provide accessible, clear, and actionable information on mental well-being, common issues, and effective stress management techniques. The design prioritizes a calm, clean, and well-organized user experience.
 
 A responsive site layout enables easy navigation on all devices.
@@ -12,7 +14,6 @@ The website is built using HTML5 and styled with CSS leveraging the Bootstrap fr
 - Information Cards (Bootstrap Cards): Content will be broken down into digestible sections using visually distinct cards. These will cover topics like:
 
      - Simple Stress Management Techniques
-
      - Everyday Wellness Tips
 
 - Resource Links (Bootstrap Grid & Buttons): A dedicated section will feature external links to credible mental health organizations and helplines. Links will be presented in a clear grid layout and styled with Bootstrap buttons for high visibility and easy access.
