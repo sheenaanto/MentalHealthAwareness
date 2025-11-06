@@ -1,5 +1,22 @@
 # Mindful Moments
 
+## Table of Contents
+- [Introduction](#introduction)
+  - [Technical Focus](#technical-focus)
+  - [Key Features & Components](#key-features--components)
+- [Screenshots](#screenshots)
+  - [Desktop](#desktop)
+  - [Tablet](#tablet)
+  - [Mobile](#mobile)
+- [UX Design](#ux-design)
+  - [Typography](#typography)
+  - [Wireframe Design](#wireframe-design)
+- [User Stories](#user-stories-simple)
+- [Testing](#testing)
+  - [Lighthouse](#lighthouse)
+  - [Responsive Testing](#responsive-testing)
+  - [Validator Testing](#validator-testing)
+
 ## Introduction
 This project aims to create a beginner-friendly and supportive mental health awareness website. The primary goal is to provide accessible, clear, and actionable information on mental well-being, common issues, and effective stress management techniques. The design prioritizes a calm, clean, and well-organized user experience.
 
