@@ -170,7 +170,14 @@ AI tools like GitHub Copilot served as an efficient coding partner, helping to s
 ### Lighthouse
 
 The site was tested using Lighthouse with the following results:
-<img width="698" height="708" alt="image" src="https://github.com/user-attachments/assets/c91fdab2-1e29-4b2e-8a2d-554d4274b502" />
+
+Desktop :
+
+![Desktop](image.png)
+
+Mobile:
+
+![Mobile](image-1.png)
 
 ### Responsive Testing
 
