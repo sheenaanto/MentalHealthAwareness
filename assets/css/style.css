@@ -89,16 +89,41 @@ body {
     background-color: rgb(245, 247, 247);
 }
 
-/* Possitive affirmations */
+/* Positive affirmations */
 #positive_affirmations {
-    background-color:#7496c4;
-    border-radius: 5px;
+    background-color: #7496c4;
+    padding: 3rem 0;
+    margin: 2rem 0;
+}
+
+#positive_affirmations h2 {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#positive_affirmations .carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#positive_affirmations .carousel-inner {
+    min-height: 125px;
+    padding: 2rem;
+}
+
+#positive_affirmations .blockquote {
+    margin: 0;
+}
+
+#positive_affirmations .blockquote p {
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-bottom: 1rem;
 }
 
 .btn-outline-primary {
   color: #02275fcc !important;
   border-color: #02275fcc !important;
-
 }
 
 
