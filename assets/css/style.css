@@ -41,6 +41,11 @@ body {
     /* prevent navbar overlap */
    padding-top: 6rem; 
 }
+.btn-danger{
+   background-color: #7E1520 !important;
+  border-color: #7E1520 !important;
+
+}
 
 
 /* Hero section */
