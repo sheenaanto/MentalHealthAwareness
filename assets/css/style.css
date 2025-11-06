@@ -107,8 +107,9 @@ body {
 }
 
 #positive_affirmations .carousel-inner {
-    min-height: 125px;
+    min-height: 140px;
     padding: 2rem;
+    align-items: center;
 }
 
 #positive_affirmations .blockquote {
